@@ -1,0 +1,61 @@
+.one-card{
+    background: rgb(138, 136, 136);
+    width: 350px;
+    height: 100%;
+    color: white;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    transition: all 0.5s;
+    flex-wrap: wrap;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one-card:hover{
+    background: rgb(121, 120, 120);
+    transform: scale(1.1);
+}
+.one-card input{
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    outline-color: blue;
+    outline-width: 30px;
+}
+.formss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.formss h1{
+    font-size: 15px;
+}
+.formss button{
+    width: 70px;
+    height: 30px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.formss button:hover{
+    background: #000;
+    color:white;
+}
+ .formss:hover{
+    background: rgb(70, 70, 70);
+ }
